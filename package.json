@@ -1,10 +1,10 @@
 {
-  "name": "FEJStesting",
+  "name": "sptesting",
   "version": "0.0.1",
   "description": "a sample testing setup",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sajclarke/FEJStesting.git"
+    "url": "git+https://github.com/sajclarke/FEJStesting.git"
   },
   "keywords": [
     "testing",
@@ -20,9 +20,17 @@
   },
   "homepage": "https://github.com/sajclarke/FEJStesting",
   "devDependencies": {
-    "jasmine-core": "^2.3.2",
-    "karma": "^0.12.31",
-    "karma-firefox-launcher": "^0.1.4",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.36",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-firefox-launcher": "^0.1.6",
     "karma-jasmine": "^0.3.5"
+  },
+  "main": "my.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
